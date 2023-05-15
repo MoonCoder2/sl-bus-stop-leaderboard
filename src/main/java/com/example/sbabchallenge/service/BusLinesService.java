@@ -1,16 +1,15 @@
 package com.example.sbabchallenge.service;
 
 import com.example.sbabchallenge.integration.TrafiklabIntegration;
-import com.example.sbabchallenge.model.*;
-import com.example.sbabchallenge.model.trafiklab.BusLineData;
-import com.example.sbabchallenge.model.trafiklab.ResultRow;
+import com.example.sbabchallenge.model.BusLineDTO;
+import com.example.sbabchallenge.model.BusLinePoint;
+import com.example.sbabchallenge.model.BusLineStopDTO;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.stream.Collectors;
 
 @Service
 public class BusLinesService {

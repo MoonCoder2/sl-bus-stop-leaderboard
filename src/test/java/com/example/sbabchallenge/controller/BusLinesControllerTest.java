@@ -1,7 +1,6 @@
 package com.example.sbabchallenge.controller;
 
 import com.example.sbabchallenge.model.TrafiklabException;
-import com.example.sbabchallenge.model.TrafiklabParseException;
 import com.example.sbabchallenge.model.TrafiklabValidationException;
 import com.example.sbabchallenge.service.BusLinesService;
 import org.junit.jupiter.api.BeforeEach;
